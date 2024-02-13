@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input {
+    display: block;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    color: black;
+  }
+  button {
+    border: 1px solid gray;
+    background: rgb(30, 174, 39);
+    margin-right: 5px;
+  }
+  button:nth-last-child(2),
+  button:nth-last-child(1) {
+    background: tomato;
+    color: white;
+  }
